@@ -28,7 +28,7 @@ The compiler is configured by editing the config.json file:
 * **`PHP_FILE_HEADER`**  The path to a text file containing the comments that should be added to the top of your class file. The default is `header.php`.
 * **`CLASS_NAME`**  A text string that will be the name of your declared class. The default is  
 * **`OUTPUT_FILE`**  The path to the output file
-* **`METHODS`** An array of file paths that include the methods that should be included in the class.
+* **`METHODS`** An array of file paths that include the methods that should be included in the class. You can set 'active' to false for any method that you don't want included in the final output file. If its easier, you can also simply remove the entire line or move it to the `METHODS_ARCHIVED` section.
 
 ##Command Line Options
 
