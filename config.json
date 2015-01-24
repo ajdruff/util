@@ -1,0 +1,33 @@
+{"MAIN":
+            {
+                "INFO":
+                        {
+                            "NAME": "Util",
+                            "DESCRIPTION": "Util common library",
+                            "COMMENT": "Configuration file",
+                            "VERSION": "1.0"
+
+                        },
+                "CONFIG":
+                        {
+                            "PHP_FILE_HEADER": "header.php",
+                            "CLASS_NAME": "Util",
+                            "OUTPUT_FILE": "output/Util.php",
+                            "METHODS":
+                                    {
+                                        "lib/arrayToHtml.php":
+                                                {"active": true},
+                                        "lib/arrayToString.php":
+                                                {"active": true}
+
+                                    },
+                            "METHODS_ARCHIVED":
+                                    {
+                                        "lib/myArchivedMethod.php":
+                                                {"active": true}
+
+                                    }                                    
+
+                        }
+            }
+}
